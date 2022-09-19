@@ -107,7 +107,7 @@ body {
   place-items: center;
   width: var(--size);
   /* fill: var(--color-text); */
-  background: var(--color-bg-accent);
+  /* background: var(--color-bg-accent); */
   aspect-ratio: 16/9;
   padding: calc(var(--size) / 10);
   border-radius: 0.5rem;
