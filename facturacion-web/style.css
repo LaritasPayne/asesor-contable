@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.raster {
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  padding-right: 50px;
+}
+
+.login {
+  background-color: rgba(19, 206, 102, 0);
+  border: 1px solid #e9ecee;
+  height: 39px;
+  float: right;
+  margin-top: 5px;
+  margin-right: 50px;
+  padding-left: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.nombreusuario {
+  font-family: Roboto;
+  width: 325px;
+  padding-top: 10px;
+  color: #47525e;
+  float: right;
+}
+
+.inicio {
+  color: #969faa;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 22px;
+  width: 94px;
+  position: absolute;
+  padding-top: 15px;
+  padding-left: 40px;
+  font-weight:bold;
+}
+
+.barra {
+  background-color: #0082fb;
+  width: 37px;
+  height: 1061px;
+  float: left;
+  margin-top: 30px;
+}
+
+.noti {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.info {
+  background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #e2e5e8;
+    width: 810px;
+    height: 471px;
+    float: left;
+    margin: 30px 30px 60px 50px;
+}
+
+.herramientas{
+  background-color: rgba(19, 206, 102, 0);
+  border: 1px solid #E2E5E8;
+  width: 400px;
+  height: 253px;
+  margin: 30px 30px 60px 30px;
+}
+
+.herramientas h1{
+  color: #101012;
+  font-family: Roboto;
+  font-size: 23px;
+  line-height: 29px;
+  text-align: left;
+}
+
+.herramientas div{
+  color: #000000;
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: left;
+  margin: 5px;
+}
+
+.herramientas a{
+  background-color: #E7E9EC;
+  border-radius: 5px;
+  width: 110px;
+  height: 15px;
+  float: right;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 10px;
+  text-align: center;
+}
+
+.herrmaientas img{
+  width: 18px;
+  height: 17px;
+}
+
+.info a {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #47525e;
+  height: 30px;
+  color: #383a3a;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 62px;
+  width: 114px;
+  text-align: center;
+  padding: 5px;
+}
+
+.button1{
+  position:absolute;
+  right: 450px;
+}
+
+.button2{
+  position: absolute;
+  right: 450px;
+  top: 40%;
+}
+
+.info h1 {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 22px;
+  line-height: 28px;
+  width: 238px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+}
+
+.info h2 {
+  color: #00000096;
+  font-family: Roboto;
+  font-size: 19px;
+  line-height: 24px;
+  width: 102px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info h3 {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 16px;
+  width: 320px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: normal;
+}
+
+.info img{
+ position: absolute;
+ right: 61%;
+ top: 22%;
+}
+
