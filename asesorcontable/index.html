@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="marquee.css" />
     <link rel="stylesheet" href="whats.css" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="slider.js"></script>
     <script
       src="https://kit.fontawesome.com/eb496ab1a0.js"
       crossorigin="anonymous"
@@ -58,8 +59,26 @@
       </ul>
     </nav>
     <script src="nav.js"></script>
-
     <!-- termina barra de navegacion-->
+
+    <!-- Inicia slider -->
+    <div class="carousel" duration="7000">
+      <ul>
+        <li id="c1_slide1"></li>
+        <li id="c1_slide2"></li>
+        <li id="c1_slide3"></li>
+        <li id="c1_slide4"></li>
+      </ul>
+      <ol>
+        <li><a href="#c1_slide1"></a></li>
+        <li><a href="#c1_slide2"></a></li>
+        <li><a href="#c1_slide3"></a></li>
+        <li><a href="#c1_slide4"></a></li>
+      </ol>
+      <div class="prev">&lsaquo;</div>
+      <div class="next">&rsaquo;</div>
+    </div>
+    <!-- Termina slider -->
 
     <article class="wrapper">
       <div class="marquee">
