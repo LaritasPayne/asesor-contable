@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
 }
 
-nav {
+.nav {
   height: 6rem;
   width: 100vw;
   background-color: #ffffff;
@@ -18,6 +18,12 @@ nav {
   display: flex;
   position: fixed;
   z-index: 10;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+  margin: -4px;
 }
 
 /*Styling logo*/
