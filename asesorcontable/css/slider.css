@@ -36,7 +36,8 @@
 .carousel ul li {
   min-width: 100%;
   list-style: none;
-  background: url(slider/slidermedia1.PNG) center center / cover no-repeat;
+  background: url(/asesorcontable/slider/slidermedia1.PNG) center center / cover
+    no-repeat;
   scroll-snap-align: start;
   display: flex;
   justify-content: center;
@@ -99,16 +100,16 @@
     height: 120vw;
   } */
   .carousel ul li {
-    background-image: url(slider/slider1.jpg);
+    background-image: url(/asesorcontable/slider/slider1.jpg);
   }
   #c1_slide2 {
-    background-image: url(slider/slider2.jpg);
+    background-image: url(/asesorcontable/slider/slider2.jpg);
   }
   #c1_slide3 {
-    background-image: url(slider/slider3.jpg);
+    background-image: url(/asesorcontable/slider/slider3.jpg);
   }
   #c1_slide4 {
-    background-image: url(slider/slider4.jpg);
+    background-image: url(/asesorcontable/slider/slider4.jpg);
   }
 }
 
@@ -117,11 +118,11 @@
 
 /* DEMO CSS */
 .carousel ul li:nth-child(2) {
-  background-image: url(slider/slidermedia2.PNG);
+  background-image: url(/asesorcontable/slider/slidermedia2.PNG);
 }
 .carousel ul li:nth-child(3) {
-  background-image: url(slider/slidermedia3.PNG);
+  background-image: url(/asesorcontable/slider/slidermedia3.PNG);
 }
 .carousel ul li:nth-child(4) {
-  background-image: url(slider/slidermedia4.PNG);
+  background-image: url(/asesorcontable/slider/slidermedia4.PNG);
 }
