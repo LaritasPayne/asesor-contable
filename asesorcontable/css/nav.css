@@ -187,3 +187,41 @@ svg {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown__trigger {
+  cursor: pointer;
+}
+
+/* Ocultar el contenido del menú desplegable por defecto */
+.dropdown__content {
+  display: none;
+
+  /* Colóquelo justo debajo del elemento disparador */
+  left: 0;
+  padding-top: 2rem;
+  position: absolute;
+  top: 100%;
+  width: 300px;
+
+  /* Debe estar encima de otros elementos */
+  background-color: #fff;
+  z-index: 9999;
+}
+
+/* Mostrar el contenido al pasar el cursor sobre el contenedor */
+.dropdown:hover .dropdown__content {
+  display: block;
+}
+
+.dropdown__content li {
+  list-style: none;
+  padding: 15px;
+}
+
+.dropdown__content li a:hover::before {
+  width: 0%;
+}

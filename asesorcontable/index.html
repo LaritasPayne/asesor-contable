@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/marquee.css" />
     <link rel="stylesheet" href="css/whats.css" />
-    <link rel="stylesheet" href="css/slider.css" />
     <link rel="stylesheet" href="css/mediaqueries.css" />
-    <link rel="stylesheet" href="css-boot/bootstrap.min.css" />
     <script
       src="https://kit.fontawesome.com/eb496ab1a0.js"
       crossorigin="anonymous"
@@ -47,6 +45,42 @@
         <li><a href="#">NomiExpress</a></li>
         <li><a href="#">FacturacionExpress</a></li>
         <li><a href="#">ContaExpress</a></li>
+        <li class="dropdown">
+          <div class="dropdown__trigger">
+            <a href="#"
+              >Guias
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                /></svg
+            ></a>
+          </div>
+          <div class="dropdown__content">
+            <ul>
+              <li>
+                <a href="pages/guias/facturacion-web.html">Facturacion Web</a>
+              </li>
+              <li>
+                <a href="pages/guias/nomiexpress-web.html">NomiExpress Web</a>
+              </li>
+              <li>
+                <a href="pages/guias/nomiexpress-escritorio.html"
+                  >NomiExpress Escritorio</a
+                >
+              </li>
+              <li><a href="pages/guias/efacturas.html">eFacturas</a></li>
+            </ul>
+          </div>
+        </li>
         <li>
           <a href="#"
             >Otros
@@ -66,10 +100,10 @@
             </svg>
           </a>
         </li>
-        <!-- <li><a href="#">Extra</a></li> -->
-        <li>
+
+        <!-- <li>
           <button class="login-button" href="#">Solicita Información</button>
-        </li>
+        </li> -->
         <li>
           <form
             method="get"
@@ -85,68 +119,9 @@
 
     <!-- Inicia slider -->
 
-    <div
-      id="carouselExampleFade"
-      class="carousel slide carousel-fade"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="slider/slider1.jpg"
-            width="100vw"
-            ;
-            height="500vw"
-            ;
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img src="slider/slider2.jpg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="slider/slider3.jpg" class="d-block w-100" alt="..." />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleFade"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleFade"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <!-- <div class="carousel" duration="7000">
-      <ul>
-        <li id="c1_slide1"></li>
-        <li id="c1_slide2"></li>
-        <li id="c1_slide3"></li>
-        <li id="c1_slide4"></li>
-      </ul>
-      <ol>
-        <li><a href="#c1_slide1"></a></li>
-        <li><a href="#c1_slide2"></a></li>
-        <li><a href="#c1_slide3"></a></li>
-        <li><a href="#c1_slide4"></a></li>
-      </ol>
-      <div class="prev">&lsaquo;</div>
-      <div class="next">&rsaquo;</div>
-    </div> -->
     <!-- Termina slider -->
 
+    <!--Promocionales-->
     <article class="wrapper">
       <div class="marquee">
         <div class="marquee__group">
@@ -206,6 +181,5 @@
 
     <script src="js-boot/bootstrap.min.js"></script>
     <script src="js/nav.js"></script>
-    <!-- <script src="js/slider.js"></script> -->
   </body>
 </html>
