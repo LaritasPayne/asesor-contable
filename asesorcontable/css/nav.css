@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  color: #000000;
+  /* color: #000000; */
   font-family: sans-serif;
   letter-spacing: 1px;
   font-weight: 300;
@@ -49,6 +49,7 @@ svg {
 .nav-links li a {
   text-decoration: none;
   margin: 0 0.7vw;
+  color: black;
 }
 .nav-links li a:hover {
   color: #af0029;
